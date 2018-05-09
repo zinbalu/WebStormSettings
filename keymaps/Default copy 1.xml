@@ -1,4 +1,14 @@
 <keymap version="1" name="Default copy 1" parent="$default">
+  <action id="CommentByBlockComment">
+    <keyboard-shortcut first-keystroke="shift ctrl slash" />
+    <keyboard-shortcut first-keystroke="shift ctrl divide" />
+    <keyboard-shortcut first-keystroke="shift ctrl q" />
+  </action>
+  <action id="CommentByLineComment">
+    <keyboard-shortcut first-keystroke="ctrl slash" />
+    <keyboard-shortcut first-keystroke="ctrl divide" />
+    <keyboard-shortcut first-keystroke="ctrl q" />
+  </action>
   <action id="Debug">
     <keyboard-shortcut first-keystroke="shift f9" />
     <keyboard-shortcut first-keystroke="shift ctrl g" />
@@ -11,6 +21,9 @@
   <action id="PreviousProjectWindow">
     <keyboard-shortcut first-keystroke="ctrl alt open_bracket" />
     <mouse-shortcut keystroke="control button5" />
+  </action>
+  <action id="QuickJavaDoc">
+    <mouse-shortcut keystroke="alt button2" />
   </action>
   <action id="Run">
     <keyboard-shortcut first-keystroke="shift f10" />
